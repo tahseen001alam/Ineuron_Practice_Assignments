@@ -1,4 +1,4 @@
-def twoSum(nums, tar):
+'''def twoSum(nums, tar):
     d = {}  
     
     for i, num in enumerate(nums):
@@ -15,4 +15,12 @@ def twoSum(nums, tar):
 nums = list(map(int,input().split()))
 tar = int(input())
 result = twoSum(nums, tar)
-print(result)
+print(result)'''
+
+def func(s):
+
+    if len(s) <= 1:
+        return s
+
+    return func(s[ 2 : ]) + s[0]
+print(func("AeI123"))
