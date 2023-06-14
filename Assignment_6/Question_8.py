@@ -15,3 +15,6 @@ for i in range(k):
     mat2.append(arr1)
 
 mat3=[[0 for i in range(m)] for j in range(n)]
+for i in range():
+    for j in range():
+        for k in range():
